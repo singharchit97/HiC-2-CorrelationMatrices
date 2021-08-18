@@ -36,7 +36,7 @@ process pearsonMatrices_cool {
     '''
 }
 
-process pearsonMatrices_txt{
+process pearsonMatrices_txt {
     conda '/home/shaon/antoni/ARCHIT/hic_analysis.yml'
     
     publishDir '/home/shaon/antoni/ARCHIT/nextflow-git/output_txt-files'
